@@ -2,19 +2,8 @@
 
 <div>
 <br><br>
-<form @submit.prevent="onSubmit">
-  <label for="fullname">Your name:</label><br>
-  <input type="text" v-model="fullname" placeholder="your name"><br>
-  
-  <label for="message">Message:</label><br>
-  <input type="text" v-model="message" placeholder="edit me">
 
-<p>Name is: {{ fullname }}</p>
-  <p>Message is: {{ message }}</p>
-
-  <input type="submit" value="Submit">
-
-</form>
+As a great man once said, "Machette don't text."
 </div>
 
 </template>

@@ -30,7 +30,7 @@
   </pagetemplate>
 
 
-  <footer>&copy; Simon Mealings 2021</footer>
+  <footer>&copy; Simon Mealings 2025</footer>
 
   </div>
 </template>
