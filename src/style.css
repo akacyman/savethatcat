@@ -1,0 +1,109 @@
+html, body, div,
+a, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+.page {
+  line-height: 1;
+  font-family: 'Lexend', sans-serif;
+  background:white;
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: unset;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  letter-spacing: -0.03em;
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  height: 100%; /* needed for proper layout */
+}
+
+body {
+  overflow: hidden;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.home-svg {
+  pointer-events: none;
+}
+
+.start-object-container {
+  width: 100%; height: auto; display: block;
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.hideMe {
+  display: none;
+  opacity: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex: 0 0 auto;
+  height: 18px;
+  background-color: #50832F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 8px;
+}
+
+.panelnav {
+    display: flex; 
+    justify-content: center; 
+    position: absolute; 
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (orientation: portrait) {
+  .panelnav {
+    flex-direction: row; 
+    width: 100%;
+  }
+  .landscape{
+    display: none;
+    opacity: 0;
+  }
+
+}
+
+@media (orientation: landscape) {
+  .panelnav {
+    flex-direction: column; 
+    height:100%;
+  }
+
+  .portrait{
+    display: none;
+    opacity: 0;
+  }
+
+}

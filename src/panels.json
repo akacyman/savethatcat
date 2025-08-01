@@ -1,0 +1,13 @@
+[
+    { "src": "./assets/morris_s02e00.svg", "panel": "p1" },
+    { "src": "./assets/morris_s02e01.svg", "panel": "p2" },
+    { "src": "./assets/morris_s02e02.svg", "panel": "p3" },
+    { "src": "./assets/morris_s02e03.svg", "panel": "p4" },
+    { "src": "./assets/morris_s02e04.svg", "panel": "p5" },
+    { "src": "./assets/morris_s02e05.svg", "panel": "p6" },
+    { "src": "./assets/morris_s02e06.svg", "panel": "p7" },
+    { "src": "./assets/morris_s02e07.svg", "panel": "p8" },
+    { "src": "./assets/morris_s02e08.svg", "panel": "p9" },
+    { "src": "./assets/morris_s02e09.svg", "panel": "p10" }
+
+]
